@@ -10,7 +10,7 @@ def binary_search(arr,target):
       return mid
     elif guess < target:
       low=mid+1
-      else:
+      else
         high=nid-1
         return -1
       
