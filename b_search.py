@@ -5,15 +5,14 @@ def binary_search(arr,target):
   while low <=high:
     mid = (low+high)
     guess=arr[mid]
-     
-      
-      if guess == target:
-        return mid
-      elif guess< target:
-        low = mid+1
-        else:
-          high=mid-1
-   return -1 #target not found
+    
+    if guess == target:
+      return mid
+    elif guess< target:
+      low = mid+1
+      else:
+        high=mid-1
+return -1 #target not found
       
       
 numbers=[2,3,8,4,5,9.7,1]
