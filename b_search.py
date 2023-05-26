@@ -1,6 +1,7 @@
 def binary_search(arr,target):
   low=0
   high=len(arr)-1
+  mid=0
   
   while low<=high:
     mid=(low+high)
@@ -11,7 +12,7 @@ def binary_search(arr,target):
     elif guess < target:
       low=mid+1
       else:
-        high=nid-1
+        high=mid-1
         return -1
       
 numbers=[2,5,34,6,4,7,3,88,10,1]
